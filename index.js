@@ -4,10 +4,10 @@ var random2 = Math.floor(Math.random() * 6) + 1;
 // console.log(random);
 
 var dice1 = document.querySelector(".img1");
-dice1.setAttribute("src", "/images/dice" + random1 + ".png");
+dice1.setAttribute("src", "images/dice" + random1 + ".png");
 
 var dice2 = document.querySelector(".img2");
-dice2.setAttribute("src", "/images/dice" + random2 + ".png");
+dice2.setAttribute("src", "images/dice" + random2 + ".png");
 
 var head = document.querySelector("h1");
 if (random1 > random2) {
